@@ -1,0 +1,11 @@
+Don't even know why you are here but read below if your wondering.
+
+✔️ (Tick Emoji)
+❌ (Cross Emoji)
+
+TODO List:
+- Add LIA Home button in header. ✔️
+- Add more trailers on front page. ✔️
+- Make the Trailers container shorter to fit 4. (❌ -- Cannot do that at the moment.)
+
+Oh, Hello there.
