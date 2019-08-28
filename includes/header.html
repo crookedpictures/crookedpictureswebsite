@@ -1,0 +1,86 @@
+<body>
+
+	<style>
+
+		.dropbtn {
+		  /* background-color: #4CAF50;
+		  color: white; */
+		  color: #007bff;
+		  background-color: #FFFFFF;
+		  padding: 8px;
+		  font-size: 16px;
+		  border: none;
+		}
+
+		.dropdown {
+		  position: relative;
+		  display: inline-block;
+		}
+
+		.dropdown-content {
+		  display: none;
+		  position: absolute;
+		  background-color: #f1f1f1;
+		  min-width: 160px;
+		  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		  z-index: 1;
+		}
+
+		.dropdown-content a {
+		  color: black;
+		  padding: 12px 16px;
+		  text-decoration: none;
+		  display: block;
+		}
+
+		.dropdown-content a:hover {background-color: #ddd;}
+
+		.dropdown:hover .dropdown-content {display: block;}
+
+		/* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
+		.dropdown:hover .dropbtn {text-decoration: underline;}
+		.headerbutton:hover {text-decoration: underline;}
+
+		.headerbutton {
+		  color: #007bff;
+		  background-color: #FFFFFF;
+		  padding: 8px;
+		  font-size: 16px;
+    	  border: none;
+          outline: none !important;
+		}
+	</style>
+
+<style>
+	.bs-example{
+    	margin: 20px;
+    }
+</style>
+
+</body>
+<header>
+	<div class= "container">
+		<div class="row">
+			<div class="col">
+				<h5 style="margin-top:8px;">Crooked Pictures</h5>
+			</div>
+			
+			<div class="col">
+				<nav>
+					<!-- <ul class="nav justify-content-end">
+
+						<li class="nav-item"><a id="contact" class="nav-link" href="#">Contact</a></li>
+
+					</ul> -->
+					<button class="headerbutton" onclick="window.location='/';">Home</button>
+					<div class="dropdown" style="">
+ 						<button class="dropbtn">Movie List</button>
+  						<div class="dropdown-content">
+    						<a href="/movies/bella">Bella</a>
+    					</div>
+  					</div>
+  					<button class="headerbutton" onclick="window.location='https://www.lifeisaardvark.tk';" style="margin-left:302px;">LIA Home</button>
+				</nav>
+			</div>
+		</div>
+</header>
