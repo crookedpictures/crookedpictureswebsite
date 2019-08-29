@@ -9,12 +9,13 @@
 
 	<!--  -->
 	<script src="../js/main.js"></script>
+	<script src="../js/include.js"></script>
 	<link rel="stylesheet" href="../css/style.css">
 	<title>Bella | Movie | Crooked Pictures</title>
 
 <body class="background">
 
-	<?php include("../header.php") ?>
+	<div w3-include-html="../includes/header.html"></div>
 
 	<div class="container">
 		<div class="jumbotron"> <!-- jumbotron col-md-6 offset-md-6 -->
@@ -36,7 +37,11 @@
         <b><p align="middle">Copyright &copy; Crooked Pictures 2019</p></b>
     </div> -->
 
-    <?php include("../footer.php") ?>
+    <div w3-include-html="../includes/footer.html"></div>
+
+	<script>
+		includeHTML();
+	</script>
 
     </body>
 </html>
